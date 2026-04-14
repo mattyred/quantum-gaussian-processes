@@ -1,0 +1,10 @@
+==================================================
+SLURM_ARRAY_TASK_ID = 14
+Run name            = kernel=quantum_chebyshev_layers=2_traink=false_qubits=16_seed=42
+kernel_type         = quantum_chebyshev
+n_layers            = 2
+train_kernel        = false
+n_qubits            = 16
+==================================================
+Executing:
+python mnist_chebyshev_qkernel.py --kernel-type quantum_chebyshev --seed 42 --n-qubits 16 --n-layers 2 --entanglement linear --n-train 200 --n-test 100 --svm-c 1.0 --initial-theta random --save-kernels --run-name kernel=quantum_chebyshev_layers=2_traink=false_qubits=16_seed=42 

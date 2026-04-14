@@ -1,0 +1,17 @@
+run_name,kernel_type,seed,n_qubits,n_layers,entanglement,n_train,n_test,svm_c,rbf_gamma,train_kernel,initial_theta,maxiter,learning_rate,perturbation,n_trainable_params,train_time_sec,kernel_eval_time_sec,test_accuracy,optimal_value,optimizer_evals
+kernel=quantum_chebyshev_layers=2_traink=false_qubits=2_seed=42,quantum_chebyshev,42,2,2,linear,200,100,1.0,,False,random,20,0.05,0.05,6,0.0,134.5975655950606,0.9,nan,nan
+kernel=quantum_chebyshev_layers=1_traink=false_qubits=4_seed=42,quantum_chebyshev,42,4,1,linear,200,100,1.0,,False,random,20,0.05,0.05,7,0.0,180.9008279554546,0.86,nan,nan
+kernel=quantum_chebyshev_layers=2_traink=false_qubits=4_seed=42,quantum_chebyshev,42,4,2,linear,200,100,1.0,,False,random,20,0.05,0.05,14,0.0,286.47750426083803,0.87,nan,nan
+kernel=quantum_chebyshev_layers=1_traink=false_qubits=6_seed=42,quantum_chebyshev,42,6,1,linear,200,100,1.0,,False,random,20,0.05,0.05,11,0.0,369.26420111581683,0.9,nan,nan
+kernel=quantum_chebyshev_layers=2_traink=false_qubits=6_seed=42,quantum_chebyshev,42,6,2,linear,200,100,1.0,,False,random,20,0.05,0.05,22,0.0,548.6994553282857,0.88,nan,nan
+kernel=quantum_chebyshev_layers=1_traink=false_qubits=8_seed=42,quantum_chebyshev,42,8,1,linear,200,100,1.0,,False,random,20,0.05,0.05,15,0.0,778.0036884509027,0.91,nan,nan
+kernel=quantum_chebyshev_layers=2_traink=false_qubits=8_seed=42,quantum_chebyshev,42,8,2,linear,200,100,1.0,,False,random,20,0.05,0.05,30,0.0,1158.6750934161246,0.96,nan,nan
+kernel=quantum_chebyshev_layers=1_traink=true_qubits=2_seed=42,quantum_chebyshev,42,2,1,linear,200,100,1.0,,True,random,20,0.05,0.05,3,3926.065017685294,168.04068582504988,0.57,167.1584806941425,40
+kernel=quantum_chebyshev_layers=2_traink=true_qubits=2_seed=42,quantum_chebyshev,42,2,2,linear,200,100,1.0,,True,random,20,0.05,0.05,6,5145.519402954727,248.99824683368206,0.64,147.06884466943887,40
+kernel=quantum_chebyshev_layers=1_traink=true_qubits=4_seed=42,quantum_chebyshev,42,4,1,linear,200,100,1.0,,True,random,20,0.05,0.05,7,5455.11783098802,236.40840854123235,0.61,130.27215950896436,40
+kernel=quantum_chebyshev_layers=1_traink=true_qubits=6_seed=42,quantum_chebyshev,42,6,1,linear,200,100,1.0,,True,random,20,0.05,0.05,11,8012.490283377469,414.49771574139595,0.71,106.53674943946606,40
+kernel=quantum_chebyshev_layers=2_traink=true_qubits=4_seed=42,quantum_chebyshev,42,4,2,linear,200,100,1.0,,True,random,20,0.05,0.05,14,8662.981077570468,418.9414020255208,0.82,96.39036361615766,40
+kernel=quantum_chebyshev_layers=1_traink=true_qubits=8_seed=42,quantum_chebyshev,42,8,1,linear,200,100,1.0,,True,random,20,0.05,0.05,15,10693.824419647455,516.192708555609,0.93,31.742622270519618,40
+kernel=quantum_chebyshev_layers=2_traink=true_qubits=6_seed=42,quantum_chebyshev,42,6,2,linear,200,100,1.0,,True,random,20,0.05,0.05,22,12436.983280219138,616.9906911589205,0.88,51.73551904423336,40
+kernel=quantum_chebyshev_layers=1_traink=false_qubits=2_seed=42,quantum_chebyshev,42,2,1,linear,200,100,1.0,,False,random,20,0.05,0.05,3,0.0,67.72083196800668,0.83,nan,nan
+kernel=quantum_chebyshev_layers=2_traink=true_qubits=8_seed=42,quantum_chebyshev,42,8,2,linear,200,100,1.0,,True,random,20,0.05,0.05,30,12968.97641471203,622.0301229250035,0.87,64.72142383496339,40

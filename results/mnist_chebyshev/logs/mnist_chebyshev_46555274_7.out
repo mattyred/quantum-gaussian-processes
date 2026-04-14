@@ -1,0 +1,36 @@
+==================================================
+SLURM_ARRAY_TASK_ID = 7
+Run name            = kernel=quantum_chebyshev_layers=1_traink=true_qubits=6_seed=42
+kernel_type         = quantum_chebyshev
+n_layers            = 1
+train_kernel        = true
+n_qubits            = 6
+==================================================
+Executing:
+python mnist_chebyshev.py --kernel-type quantum_chebyshev --seed 42 --n-qubits 6 --n-layers 1 --entanglement linear --n-train 200 --n-test 100 --svm-c 1.0 --initial-theta random --save-kernels --run-name kernel=quantum_chebyshev_layers=1_traink=true_qubits=6_seed=42 --train-kernel --maxiter 20 --learning-rate 0.05 --perturbation 0.05 
+============================================================
+Run name:        kernel=quantum_chebyshev_layers=1_traink=true_qubits=6_seed=42
+Kernel type:     quantum_chebyshev
+n_qubits:        6
+n_layers:        1
+train_kernel:    True
+results_dir:     results/mnist_chebyshev
+============================================================
+Loading and preprocessing MNIST 3 vs 6...
+Train subset size: 200
+Test subset size:  100
+Building quantum feature map...
+Number of trainable quantum parameters: 11
+Training quantum kernel parameters...
+Kernel training time: 8012.490 s
+Optimal objective:    106.53674943946606
+Optimizer evals:      40
+Evaluating quantum kernel matrices...
+K_train shape:        (200, 200)
+K_test shape:         (100, 200)
+Kernel eval time:     414.498 s
+Training SVM with precomputed kernel...
+Test accuracy:        0.7100
+Appended results to:  results/mnist_chebyshev/results.csv
+Saved kernel matrices: results/mnist_chebyshev/kernels/kernel=quantum_chebyshev_layers=1_traink=true_qubits=6_seed=42.npz
+Done.
