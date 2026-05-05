@@ -1,0 +1,5 @@
+run_name,kernel_type,seed,n_qubits,n_layers,entanglement,n_train,n_test,svm_c,rbf_gamma,train_kernel,initial_theta,maxiter,learning_rate,perturbation,n_trainable_params,train_time_sec,kernel_eval_time_sec,test_accuracy,optimal_value,optimizer_evals,pca_explained_variance_ratio
+kernel=classical_rbf_pca=2_gamma=scale_C=1p0_seed=42,classical_rbf,42,2,,,200,100,1.0,scale,False,,,,,0,0.0,0.0018133439953089692,0.98,nan,nan,0.1473547562318858
+kernel=classical_rbf_pca=4_gamma=scale_C=1p0_seed=42,classical_rbf,42,4,,,200,100,1.0,scale,False,,,,,0,0.0,0.003140255001198966,0.99,nan,nan,0.2206779582537889
+kernel=classical_rbf_pca=6_gamma=scale_C=1p0_seed=42,classical_rbf,42,6,,,200,100,1.0,scale,False,,,,,0,0.0,0.18849389199749567,1.0,nan,nan,0.2731790950920403
+kernel=classical_rbf_pca=8_gamma=scale_C=1p0_seed=42,classical_rbf,42,8,,,200,100,1.0,scale,False,,,,,0,0.0,0.0025791209991439246,0.99,nan,nan,0.30705290390960344
